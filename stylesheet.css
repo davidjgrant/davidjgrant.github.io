@@ -34,14 +34,14 @@ div.button {
   width: 500px;
   height: 60px;
   position: fixed;
-  left: -435px;
+  right: -435px;
   transition: .7s ease;
 }
 
 div.button:hover {
   background-color: #e74c3c;
   position: fixed;
-  left: -50px;
+  right: -50px;
   width: 600px;
   border-radius: 0px;
   box-shadow: 0px 5px 0px #c0392b;
