@@ -11,6 +11,10 @@ h1 {
   font-size: 15px;
 }
 
+p {
+  font-family: sans-serif;
+}
+
 a {
   text-decoration: none;
 }
