@@ -50,5 +50,5 @@ div.button:hover {
 div.button:active {
   background-color: #ffffff;
   transition: 0s;
-  color: #ecf0f1;
+  color: #2c3e50;
 }
