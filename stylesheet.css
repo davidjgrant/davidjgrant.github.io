@@ -20,22 +20,22 @@ a {
 }
 
 #btn2 {
-  top: 34px;
+  top: 35px;
 }
 
 #btn3 {
-  top: 60px;
+  top: 62px;
 }
 
 div.button {
   background-color: #e74c3c;
   color: #ffffff;
   border: none;
-  border-radius: 30px;
+  border-radius: 20px;
   width: 250px;
-  height: 18px;
+  height: 19px;
   position: fixed;
-  right: -180px;
+  right: -160px;
   transition: .7s ease;
 }
 
@@ -45,7 +45,7 @@ div.button:hover {
   right: -10px;
   width: 160px;
   height: 17px;
-  border-radius: 30px;
+  border-radius: 0px;
   box-shadow: 0px 3px 0px #c0392b;
 }
 
