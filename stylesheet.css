@@ -7,7 +7,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   position: relative;
-  top: -12px;
+  top: -10px;
   font-size: 15px;
 }
 
@@ -31,7 +31,7 @@ div.button {
   background-color: #e74c3c;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   width: 250px;
   height: 18px;
   position: fixed;
@@ -45,7 +45,7 @@ div.button:hover {
   right: -10px;
   width: 160px;
   height: 17px;
-  border-radius: 0px;
+  border-radius: 30px;
   box-shadow: 0px 3px 0px #c0392b;
 }
 
