@@ -4,12 +4,12 @@ body {
 
 h1 {
   text-align: center;
-  font-family: helvetica, sans-serif;
+  font-family: futura, sans-serif;
   color: white;
 }
 
 h1.button {
-  font-family: helvetica, sans-serif;
+  font-family: futura, sans-serif;
   font-weight: bold;
   text-align: center;
   position: relative;
