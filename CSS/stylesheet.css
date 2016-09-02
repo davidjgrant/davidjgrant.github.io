@@ -1,0 +1,152 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.header {
+  background-color: #282828;
+  max-width: 100%;
+  height: 250px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position:relative;
+  z-index: 1;
+}
+
+.logo {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.img-resize {
+  max-width: 60%;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.menu {
+  margin-right: 20px;
+  margin-bottom: 150px;
+  justify-content: flex-end;
+
+}
+
+.menu-item {
+  width: 50px;
+  height: 6px;
+  margin: 6px 0px;
+  background-color: #fff;
+  list-style: none;
+}
+
+.title {
+  position: relative;
+}
+
+.title div {
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: futura, sans-serif;
+  color: #fff;
+}
+
+.title img {
+  max-width: 100%;
+  z-index: 0;
+  margin-bottom: -4px;
+}
+
+.nav {
+  max-width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position:relative;
+  z-index: 20;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-flex;
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-family: Futura, sans-serif;
+}
+
+.nav ul a {
+  display: block;
+  text-decoration: none;
+  color: #282828;
+  width: 200px;
+  height: 50px;
+
+}
+
+.nav ul a:active {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+.nav ul a:hover {
+  color: #282828;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+.projects {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 8px;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.project {
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  line-height: 300px;
+  font-family: Futura, sans-serif;
+}
+
+h3 {
+  position: absolute;
+}
+
+.footer {
+  max-width: 100%;
+  height: 300px;
+  background-color: #282828;
+  position: relative;
+}
+
+h4 {
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  font-family: Futura, sans-serif;
+
+}
