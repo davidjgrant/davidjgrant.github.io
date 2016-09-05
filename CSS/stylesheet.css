@@ -8,6 +8,10 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     background: transparent;
 }
 
+body {
+  background-color: #282828;
+}
+
 .header {
   background-color: #282828;
   max-width: 100%;
@@ -136,6 +140,7 @@ h4 {
   flex-flow: row;
   flex-wrap: wrap;
   text-align: center;
+
 }
 
 .project-name {
@@ -144,34 +149,16 @@ h4 {
   font-family: Futura, sans-serif;
   color: #fff;
   font-size: 2em;
-  top:40%;
+  bottom: 50%;
   text-align: center;
 }
 
 .project-image {
+
+}
+
+.project-item {
+  background-color: #282828;
+  position: relative;
   flex: 1;
-}
-
-.project-1 {
-  background-color: #ff9e2c;
-  flex: 33.3333%;
-  position: relative;
-}
-
-.project-2 {
-  background-color: #aa9e2c;
-  flex: 33.3333%;
-  position: relative;
-}
-
-.project-3 {
-  background-color: #bb701e;
-  flex: 33.3333%;
-  position: relative;
-}
-
-.project-4 {
-  background-color: #ee701e;
-  flex: 33.3333%;
-  position: relative;
 }
