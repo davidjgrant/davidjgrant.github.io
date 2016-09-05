@@ -51,11 +51,11 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   position: relative;
 }
 
-.title div {
+.title div h2 {
   position: absolute;
   bottom: 18px;
   left: 20px;
-  font-size: 100px;
+  font-size: 6em;
   font-weight: bold;
   letter-spacing: 3px;
   font-family: futura, sans-serif;
@@ -111,26 +111,6 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   border-bottom-width: 5px;
 }
 
-.projects {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  margin-top: 8px;
-  max-width: 100%;
-  height: auto;
-  z-index: -1;
-}
-
-.project {
-  display: inline-flex;
-  position: relative;
-  text-align: center;
-  line-height: 300px;
-  font-family: Futura, sans-serif;
-}
-
 h3 {
   position: absolute;
 }
@@ -149,4 +129,49 @@ h4 {
   line-height: 300px;
   font-family: Futura, sans-serif;
 
+}
+
+.projects {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.project-name {
+  position: absolute;
+  width: 100%;
+  font-family: Futura, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  top:40%;
+  text-align: center;
+}
+
+.project-image {
+  flex: 1;
+}
+
+.project-1 {
+  background-color: #ff9e2c;
+  flex: 33.3333%;
+  position: relative;
+}
+
+.project-2 {
+  background-color: #aa9e2c;
+  flex: 33.3333%;
+  position: relative;
+}
+
+.project-3 {
+  background-color: #bb701e;
+  flex: 33.3333%;
+  position: relative;
+}
+
+.project-4 {
+  background-color: #ee701e;
+  flex: 33.3333%;
+  position: relative;
 }
