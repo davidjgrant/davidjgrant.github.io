@@ -10,25 +10,36 @@
 </head>
 
 <body>
+  <ul class="hidden-menu">
+    <li class="hidden-item"><a href="#">Portfolio</a></li>
+    <li class="hidden-item"><a href="#">About</a></li>
+    <li class="hidden-item"><a href="#">Blog</a></li>
+    <li class="hidden-item"><a href="#">Contact</a></li>
+  </ul>
+  <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+  <label for="menu-trigger">
+    <div>
+      <ul>
+        <li class="menu-item"></li>
+        <li class="menu-item"></li>
+        <li class="menu-item"></li>
+      </ul>
+    </div>
+  </label>
+
   <div class="container">
+
     <header class="header">
-      <div class="menu">
-        <ul>
-          <a href="#">
-            <li class="menu-item"></li>
-            <li class="menu-item"></li>
-            <li class="menu-item"></li>
-          </a>
-        </ul>
-      </div>
       <div class="logo">
         <img class="logo-img" src="img/logo-l.png" alt="">
       </div>
     </header>
+
     <div class="title">
       <img src="img/portfolio-bg.png" alt="">
       <div><h2>Portfolio</h2></div>
     </div>
+
     <nav class="nav">
       <ul>
         <li class="nav-item"><a href="#">All</a></li>
