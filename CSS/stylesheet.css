@@ -18,7 +18,6 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: Futura, sans-serif;
-  text-align: center;
   overflow-x: hidden;
 }
 
@@ -60,7 +59,7 @@ html, body {
 /* Nav Trigger */
 .menu-trigger {
   position: absolute;
-
+  opacity: 0;
 }
 
 label[for="menu-trigger"] {
@@ -87,11 +86,26 @@ label[for="menu-trigger"] {
 }
 
 .menu-item {
-  width: 50px;
-  height: 6px;
+  width: 40px;
+  height: 5px;
   margin: 6px 0px;
   background-color: #fff;
   list-style: none;
+
+}
+
+.menu {
+  padding-left: 15px;
+  padding-top: 15px;
+
+}
+
+.menu-circle {
+  border-radius: 50%;
+  background-color: #282828;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .container {
@@ -240,4 +254,55 @@ h4 {
 }
 
 .project-image {
+}
+
+#about {
+  display: flex;
+  height: 450px;
+}
+
+
+.about-text {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.about-text h2, .spotify h2 {
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+
+.spotify {
+  position: absolute;
+  right: 0px;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.social ul {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.social-item {
+  list-style: none;
+  margin-bottom: -4px;
+  padding: 0 1px;
+}
+
+.social-item img {
+  max-width: 200px;
+  -webkit-filter: grayscale(1); /* Chrome, Safari, Opera */
+  filter: grayscale(1);
+}
+
+.social-item img:hover {
+  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+  filter: grayscale(0);
+  transition: .3s;
 }
