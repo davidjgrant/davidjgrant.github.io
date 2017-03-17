@@ -1,308 +1,81 @@
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-*, *:before, *:after{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-}
-
-html, body {
+html, body, section {
   height: 100%;
-  width: 100%;
-  font-family: Futura, sans-serif;
-  overflow-x: hidden;
+  margin: 0;
 }
 
-/* Navigation Menu - Background */
-.hidden-menu {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  list-style: none;
-}
-
-/* Navigation Menu - List items */
-.hidden-item {
-  width: 300px;
-}
-
-.hidden-item a {
-  display: block;
-  padding: 1em;
-  color: #282828;
-  font-size: 1.5em;
-  text-decoration: none;
-  transition: color 0.2s, background 0.5s;
-}
-
-.hidden-item:hover {
-  background-color: #282828;
-}
-
-.hidden-item a:hover {
-  color: #fff;
-}
-
-/* Nav Trigger */
-.menu-trigger {
-  position: absolute;
-  opacity: 0;
-}
-
-label[for="menu-trigger"] {
-  position: fixed;
-  left: 15px;
-  top: 15px;
-  z-index: 2;
-  height: 50px;
-  width: 60px;
-  cursor: pointer;
-}
-
-.menu-trigger + label, .container {
-  transition: left 0.2s;
-}
-
-.menu-trigger:checked + label {
-  left: 315px;
-}
-
-.menu-trigger:checked ~ .container {
-  left: 300px;
-  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
-}
-
-.menu-item {
-  width: 40px;
-  height: 5px;
-  margin: 6px 0px;
-  background-color: #fff;
-  list-style: none;
-
-}
-
-.menu {
-  padding-left: 15px;
-  padding-top: 15px;
-
-}
-
-.menu-circle {
-  border-radius: 50%;
-  background-color: #282828;
-  width: 70px;
-  height: 70px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container {
-  min-height: 100%;
-  min-width: 100%;
-  background-color: #fff;
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
-}
-
-.header {
-  background-color: #282828;
-  max-width: 100%;
-  height: 250px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-
-.logo {
-  padding: 70px 25px 80px 25px;
-}
-
-.logo-img {
-  max-width: 100%;
-}
-
-.title {
-  position: relative;
-}
-
-.title div h2 {
-  position: absolute;
-  bottom: 18px;
-  left: 20px;
-  font-size: 5vw;
-  font-weight: bold;
-  letter-spacing: 3px;
-  font-family: futura, sans-serif;
-  color: #fff;
-}
-
-.title img {
-  max-width: 100%;
-  z-index: 0;
-  margin-bottom: -4px;
-}
-
-.nav {
-  max-width: 100%;
-  background-color: #fff;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  text-align: center;
+  justify-content: flex-start;
+}
+
+.left {
+  background-color: white;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  position:relative;
-  z-index: 2;
+  text-align: center;
+  flex: 1;
+  width: 50%;
 }
 
-.nav-item {
+.right {
+  background-color: #00315a;
+  flex: 1;
+  text-align: center;
+}
+
+ul {
   list-style: none;
-  display: inline-flex;
-  background-color: #fff;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  font-family: Futura, sans-serif;
+  style: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
 }
 
-.nav ul a {
-  display: block;
-  text-decoration: none;
-  color: #282828;
-  width: 200px;
-  height: 50px;
-
+img {
+  height: auto;
+  width: auto;
+  max-width: 320px;
+  max-height: auto;
 }
 
-.nav ul a:active {
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
+.social img {
+  width: 32px;
+  height: auto;
+  padding-right: 20px;
 }
 
-.nav ul a:hover {
-  color: #282828;
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
-  position: relative;
-  z-index: 2;
+p {
+  font-family: roboto;
+  font-size: 1em;
+  justify-content: flex-start;
 }
 
-h3 {
-  position: absolute;
+h1 {
+  font-family: roboto;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.bold {
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 .footer {
-  max-width: 100%;
-  height: 300px;
-  background-color: #242424;
-  position: relative;
-}
-
-h4 {
-  color: #fff;
+  position: fixed;
   text-align: center;
-  vertical-align: middle;
-  line-height: 300px;
-  font-family: Futura, sans-serif;
-}
-
-.portfolio {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  text-align: center;
-  background-color: #fff;
-}
-
-.project-name {
-  position: absolute;
-  width: 100%;
-  font-family: Futura, sans-serif;
-  color: #fff;
-  font-size: 2em;
-  line-height: 300px;
-  text-align: center;
-}
-
-.project-item {
-  position: relative;
-  flex: 1;
-  transition: all .2s ease-in-out;
-  margin-bottom: 5px;
-  opacity: 0.5;
-}
-
-.project-item:hover {
-  transform: scale(1.05);
-  opacity: 1;
-}
-
-.project-image {
-}
-
-#about {
-  display: flex;
-  height: 450px;
-}
-
-
-.about-text {
-  width: 50%;
-  height: auto;
-  margin: 20px;
-  flex-direction: column;
-}
-
-.about-text h2, .spotify h2 {
-  font-size: 1.5em;
-  padding-bottom: 5px;
-}
-
-.spotify {
-  position: absolute;
-  right: 0px;
-  margin: 20px;
-  flex-direction: column;
-}
-
-.social ul {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
   justify-content: center;
-
-}
-
-.social-item {
-  list-style: none;
-  margin-bottom: -4px;
-  padding: 0 1px;
-}
-
-.social-item img {
-  max-width: 200px;
-  -webkit-filter: grayscale(1); /* Chrome, Safari, Opera */
-  filter: grayscale(1);
-}
-
-.social-item img:hover {
-  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
-  filter: grayscale(0);
-  transition: .3s;
+  bottom: 0;
+  width: 50%;
+  font-size: 0.8em;
 }
