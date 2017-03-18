@@ -46,11 +46,10 @@ img {
 .social img {
   width: 32px;
   height: auto;
-  padding-right: 20px;
 }
 
 p {
-  font-family: roboto;
+  font-family: roboto, helvetica, arial, sans-serif;;
   font-size: 1em;
   justify-content: flex-start;
 }
@@ -69,6 +68,7 @@ a {
     font-weight: bold;
     text-decoration: none;
     color: black;
+    margin-right: 20px;
 }
 
 .footer {
