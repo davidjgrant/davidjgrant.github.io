@@ -56,7 +56,7 @@ p {
 }
 
 h1 {
-  font-family: roboto;
+  font-family: roboto, helvetica, arial, sans-serif;
   font-size: 2.5em;
   font-weight: bold;
   color: white;
