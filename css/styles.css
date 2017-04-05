@@ -68,7 +68,7 @@ a {
 }
 
 /* Mobile */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -80,6 +80,7 @@ a {
     display: flex;
     flex: 1;
     align-items: center;
+    z-index: 1;
   }
 
   .right {
@@ -95,11 +96,12 @@ a {
     bottom: 0;
     margin-bottom: 10px;
     width: 100%;
+    font-size: 0.85em;
   }
 }
 
 /* Tablet / Desktop */
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 769px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -127,5 +129,6 @@ a {
     bottom: 0;
     margin-bottom: 10px;
     width: 50%;
+    font-size: 0.85em;
   }
 }
