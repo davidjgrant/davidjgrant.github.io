@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/djgrant
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://davidjgrant.co.uk
+  * I am djgrant (https://keybase.io/djgrant) on keybase.
+  * I have a public key with fingerprint 9294 C38F A260 50A0 1D27  B9AA 1064 0C11 D31C 0BDE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014462bc5071d21e00e046ac69bfffd60884763e260e165ee83c3307ed6264dbe80a",
+            "fingerprint": "9294c38fa26050a01d27b9aa10640c11d31c0bde",
+            "host": "keybase.io",
+            "key_id": "10640c11d31c0bde",
+            "kid": "01014462bc5071d21e00e046ac69bfffd60884763e260e165ee83c3307ed6264dbe80a",
+            "uid": "9668df5d809ba0e7757b2aeb0fcb3d19",
+            "username": "djgrant"
+        },
+        "service": {
+            "hostname": "davidjgrant.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469296523,
+    "expire_in": 157680000,
+    "prev": "a1725a1f0987580bef9bd3b9a5ea765095ba250f98579921b86f540be2632201",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJdSBVBFMevaVk37At76EGhhaQH0Zndndndq2If9BBImH1S4mVmd1a3
+a7vXvatmIpFQDxVaSmk9VQRmET6kIPbQh3JLlEryFlgYRRBlJWUWGVazkm89Ni/D
+nPn9/3POmTOQlhwIJl3rW6C0ndDSkobuXqgO7GntOlkvUMeoE0L1QoTNbazSYDEv
+HLEMISQACKAsY5HqCCjQECEDgAEZEx1r1DRNAwNVlRUsMREDBjFiTJV0SQIKM7CI
+ZYMyFRAhWzAtu5y5UdeyPW6riZqsS6pJuAoBArizQjVCIMAy0CE0JKgDajAurHBi
+voInR0mM5VgOj/FDeC69f/D/Oe/qOTsNY9UwkaECjRLAFAUpVCSMAlOnkgE1H4wx
+1yYHGaeNA+Uu4XU2ZAs8WGPpzO+rX8g8QGqsv1CO7uRUR7g+6jqeozuV/LrC86Ih
+X+3VRX28ltHwX6MwtWyDt5ILapgbsxxbCEFO6p7lO0MZ89ZiJErZAjsUtVwWtnwC
+KVgFfPnPsBpuSaAiIgJNoKkKUgFlpkYNiX8BYkTBCGiIEhEBU1ORomkipCo2kcw5
+EUuiCKDgl1ZlO0II8TRJObeMWeU28apdJjTcu1OaEkgKBhYtXOCPWCC4ZMX84D3I
+Wxzo65D2TC8vm8hPh2Lo6XR395cz3u5L53oKd9Ue690dLpqdWDdQ+vnl9VXH269W
+dYy/72z9CN9VBJFxfWaShZpTHj/cBDJSizsrG1+cb+86O1l/ZAPVbo1diY/c7n/b
+EoyPveqM1P1MGzw/9COxdmRfizN7fLylKnEzLnXPPvm1NDlrTfTGh8G275+64qOf
+pVRp9PLYRqtj8HBpZH8i1y74XTIs7Ppau/1NbsnW0/mbm4u+3+i9uPrR0cyS56R/
+kd54MD/e82zLaFPZjlPFGcWtBTO1j5elONu+PUxy6VTK+pFE69jK6fZ0dXzvhdBw
+YsIu3JmXm3c/s2k2+3Vv11TWoPIHtEpJOA==
+=Yh7d
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/djgrant
+
+==================================================================
