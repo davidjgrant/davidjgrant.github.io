@@ -24,15 +24,21 @@ ul {
   style: none;
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
 }
 
-img {
+.pic {
+  width: 150px;
+  height: auto;
+  border-radius: 100px;
+  margin-left: 95px;
+}
+
+.logo {
   height: auto;
   width: auto;
   max-width: 320px;
   max-height: auto;
-  justify-content: center;
+  margin-left: 10px;
 }
 
 .social img {
@@ -64,10 +70,6 @@ a {
   color: black;
 }
 
-.header {
-  justify-content: center;
-}
-
 /* Mobile */
 @media only screen and (max-width: 768px) {
   .container {
@@ -79,7 +81,7 @@ a {
   .left {
     background-color: white;
     display: flex;
-    flex: 1;
+    flex: 2;
     align-items: center;
     z-index: 1;
   }
