@@ -48,16 +48,16 @@ ul {
 
 p {
   font-family: roboto, helvetica, arial, sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.5em;
   text-align: center;
 }
 
 h1 {
   font-family: roboto, helvetica, arial, sans-serif;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.5rem;
   color: white;
+  text-align: center;
 }
 
 .social a {
