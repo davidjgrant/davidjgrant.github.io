@@ -87,7 +87,7 @@ a {
   }
 
   .right {
-    background-color: #00315a;
+    background: linear-gradient(35deg, #0575E6, #021B79);
     display: flex;
     flex: 1;
     align-items: center;
@@ -120,7 +120,7 @@ a {
   }
 
   .right {
-    background-color: #00315a;
+    background: linear-gradient(105deg, #0575E6, #021B79);
     display: flex;
     flex: 1;
     align-items: center;
