@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
+
 * {
   margin: 0;
   padding: 0;
@@ -102,6 +104,10 @@ a {
     width: 100%;
     font-size: 0.85em;
   }
+
+  .react {
+    display: none;
+  }
 }
 
 /* Tablet / Desktop */
@@ -132,7 +138,40 @@ a {
     position: absolute;
     bottom: 0;
     margin-bottom: 10px;
-    width: 50%;
     font-size: 0.85em;
   }
+
+  .portfolio-hidden {
+    display: none;
+  }
+
+  .react {
+    font-family: Fira Sans;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+
+    background-color: #00315a;
+    color: #fff;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-type {
+    width: 900px;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.r-type > div {
+    font-weight: 100;
+/*    transform: scale(0.2); */
+    transition: transform 0.2s;
+}
 }
