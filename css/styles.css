@@ -1,24 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
 
-* {
-  margin: 0;
-  padding: 0;
+html, body, section {
+  height: 100%;
+  margin: 0px;
   box-sizing: border-box;
 }
 
-html, body, section {
-  height: 100%;
-}
-
-.left, .right {
-  margin-top: -20px;
-}
 
 div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
+}
+
+footer {
+  bottom: auto;
 }
 
 ul {
@@ -26,13 +22,14 @@ ul {
   style: none;
   display: flex;
   flex-flow: wrap;
+  padding: 0;
 }
 
 .pic {
-  width: 150px;
+  width: 100px;
   height: auto;
   border-radius: 100px;
-  margin-left: 95px;
+  margin: 10px auto 20px;
 }
 
 .logo {
@@ -40,20 +37,21 @@ ul {
   width: auto;
   max-width: 320px;
   max-height: auto;
-  margin-left: 10px;
+  margin: 10px auto;
 }
 
 .social img {
-  width: 32px;
+  width: 28px;
   height: auto;
 }
 
 p {
   font-family: helvetica, arial, sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.5em;
   text-align: center;
+  margin: 0;
 }
 
 h1 {
@@ -73,12 +71,24 @@ a {
   color: black;
 }
 
+
 /* Mobile */
 @media only screen and (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .pic {
+  height: auto;
+  border-radius: 100px;
+  align-items: center;
+  }
+
+  .logo {
+    max-width: 240px;
+    max-height: auto;
   }
 
   .left {
@@ -94,15 +104,6 @@ a {
     display: flex;
     flex: 1;
     align-items: center;
-  }
-
-  .footer {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-    width: 100%;
-    font-size: 0.85em;
   }
 
   .react {
@@ -132,13 +133,6 @@ a {
     flex: 1;
     align-items: center;
 
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-    font-size: 0.85em;
   }
 
   .portfolio-hidden {
