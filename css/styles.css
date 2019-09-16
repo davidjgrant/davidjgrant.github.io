@@ -26,6 +26,9 @@ body {
     grid-template-rows: repeat(3, 200px);
     grid-gap: 40px;
     position: absolute;
+    position: absolute; 
+    right: 100px;
+    top: 100px;
     z-index: 2;
 }
 
@@ -39,21 +42,21 @@ body {
 }
 
 .overlay-bg-1 {
-    background: #f85032;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-2 {
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.overlay-bg-3 {
     background: #bc4e9c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.overlay-bg-3 {
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-4 {
@@ -63,15 +66,15 @@ body {
 }
 
 .overlay-bg-5 {
-    background: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-6 {
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f85032;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg {
