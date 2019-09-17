@@ -49,8 +49,8 @@ body {
 
 .overlay-bg-2 {
     background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(45deg, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-3 {
@@ -81,7 +81,7 @@ body {
 .overlay-bg {
     z-index: 1;
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 100%;
     opacity: 0;
     transition: opacity 0.4s ease;
