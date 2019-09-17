@@ -18,17 +18,15 @@ body {
 .portfolio {
     grid-column: 2;
     grid-row: 1;
+    display: flex;
+    flex-flow: column;
 }
 
 .menu {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(2, 20vw);
+    grid-template-rows: repeat(3, 25vh);
     grid-gap: 40px;
-    position: absolute;
-    position: absolute; 
-    right: 100px;
-    top: 100px;
     z-index: 2;
 }
 
