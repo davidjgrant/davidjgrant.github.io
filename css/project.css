@@ -3,17 +3,100 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+section {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-section {
-    width: 80%;
-    justify-items: center;
+.item-a {
+    grid-area: 1 / span 2;
+}
+
+.item-b {
+    grid-area: 2 / span 2;
+}
+
+.item-c {
+    grid-area: 3 / span 2;
+}
+
+.item-d {
+    grid-area: 4 / span 2;
+}
+
+.item-e {
+    grid-area: 5 / 1;
+}
+
+.item-f {
+    grid-area: 5 / 2;
+}
+
+.item-g {
+    grid-area: 6 / span 2;
+}
+
+.item-h {
+    grid-area: 7 / span 2;
+}
+
+.item-i {
+    grid-area: 8 / span 2;
+}
+
+article {
+    min-height: 300px;
 }
 
 .img {
     width: 100%;
     height: 50vh;
     background: grey;
+}
+
+.img-right {
+    width: 100%;
+    height: 50vh;
+    background: grey;
+}
+
+#contact-button {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 40px 3vw;
+    transition: .5s;
+}
+
+.close-button {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 80px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+p {
+    width: 60%;
+    margin: 80px auto;
+}
+
+
+footer {
+    margin: 100px auto;
 }
