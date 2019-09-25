@@ -33,6 +33,8 @@ body {
 .nav-link {
     background-color: white;
     padding: 20px;
+    max-width: 500px;
+    min-height: 100px;
 }
 
 .overlay-bg.visible {
@@ -71,8 +73,8 @@ body {
 
 .overlay-bg-6 {
     background: #e52d27;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #cc2f34, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #cc2f34, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(45deg, #e74c51, #94110c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #e74c51, #94110c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 

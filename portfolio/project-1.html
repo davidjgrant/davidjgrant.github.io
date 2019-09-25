@@ -11,14 +11,14 @@
     <header>
         <nav>
             <a id="contact-button" href="../contact.html">
-                <button>Contact</button>
+                <div class="contact-button">Contact</div>
             </a>
         </nav>
     </header>
     <main>
         <nav>
             <a class="close-button" href="../index.html">
-                <button type="button" onclick="javascript:history.back()">X</button>
+                <img src="../img/close.svg" alt="">
             </a>
         </nav>
         <section>
@@ -76,10 +76,10 @@
 
         window.onScroll = function() {
             if (window.pageYOffset > 100) {
-                button.style.opacity = 1;
+                button.style.opacity = 0;
             }
             else {
-                button.style.opacity = 0;
+                button.style.opacity = 1;
             }
         }
     </script>
