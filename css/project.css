@@ -18,6 +18,10 @@ section {
 
 .item-b {
     grid-area: 2 / span 2;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/img-1.svg');
 }
 
 .item-c {
@@ -26,6 +30,10 @@ section {
 
 .item-d {
     grid-area: 4 / span 2;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/img-2.svg');
 }
 
 .item-e {
@@ -34,6 +42,10 @@ section {
 
 .item-f {
     grid-area: 5 / 2;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/img-4.svg');
 }
 
 .item-g {
@@ -42,6 +54,10 @@ section {
 
 .item-h {
     grid-area: 7 / span 2;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/img-3.svg');
 }
 
 .item-i {
@@ -54,15 +70,16 @@ article {
 
 .img {
     width: 100%;
-    height: 50vh;
+    height: 500px;
+    max-height: 60vh;
     max-width: 2000px;
-    background: grey;
+    
 }
 
 .img-right {
     width: 100%;
-    height: 50vh;
-    background: grey;
+    height: 500px;
+    max-height: 60vh;
 }
 
 #contact-button {
@@ -74,13 +91,14 @@ article {
     text-decoration: none;
     text-align: center;
     opacity: 1;
-    font-weight: 600;
+    font-weight: bolder;
     color: white;
 }
 
 .contact-button {
     background: rgb(34, 86, 199);
-    padding: 15px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .close-button {
@@ -107,6 +125,7 @@ h4 {
     width: 60%;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 80px;
     line-height: 1.5em;
 }
 
