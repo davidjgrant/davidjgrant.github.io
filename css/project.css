@@ -21,7 +21,7 @@ section {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/img-1.svg');
+    background-image: url('../img/img-1.png');
 }
 
 .item-c {
@@ -33,7 +33,7 @@ section {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/img-2.svg');
+    background-image: url('../img/img-2.png');
 }
 
 .item-e {
@@ -45,7 +45,7 @@ section {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('../img/img-4.svg');
+    background-image: url('../img/img-4.png');
 }
 
 .item-g {
@@ -110,7 +110,7 @@ article {
 }
 
 .close-button img {
-    width: 45px;
+    width: 40px;
     border-radius: 50%;
 }
 
