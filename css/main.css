@@ -2,39 +2,11 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
-}
-
-.about {
-  text-align: center;
-  display: grid;
-  align-content: center;
-  min-height: 80vh;
-}
-
-.portfolio {
-    grid-column: 2;
-    grid-row: 1;
-    display: flex;
-}
-
-.menu {
-    display: grid;
-    grid-template-columns: repeat(2, 20vw);
-    grid-template-rows: repeat(3, 25vh);
-    grid-gap: 40px;
-    margin: 60px auto;
-    z-index: 2;
-}
-
 .nav-link {
     background-color: white;
     padding: 20px;
     max-width: 500px;
-    min-height: 100px;
+    min-height: 150px;
 }
 
 .overlay-bg.visible {
@@ -76,15 +48,6 @@ body {
     background: -webkit-linear-gradient(45deg, #e74c51, #94110c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(45deg, #e74c51, #94110c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
-
-.overlay-bg {
-    z-index: 1;
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.4s ease;
 }
 
 .nav-link h3 {
@@ -144,7 +107,93 @@ footer h2 {
   margin: 20px 0px;
 }
 
+/* Mobile */
+@media only screen and (max-width: 800px) {
+.wrapper {
+  display: grid;
+}
+
+.about {
+  text-align: center;
+  display: grid;
+  align-content: center;
+  min-height: 60vh;
+}
+
+.overlay-bg {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-rows: repeat(6, 40vw);
+    min-width: 60%;
+    z-index: 2;
+    padding: 40px;
+}
+
+.footer {
+  display: grid;
+  grid-row: 3;
+  align-content: center;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+}
+}
+
+/* Tablet / Desktop */
+@media only screen and (min-width: 801px) {
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+}
+
+.about {
+  text-align: center;
+  display: grid;
+  align-content: center;
+  min-height: 80vh;
+}
+
+.overlay-bg {
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.portfolio {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    grid-template-rows: repeat(3, 25vh);
+    grid-gap: 40px;
+    margin: 60px auto;
+    z-index: 2;
+}
+
 .footer {
   display: grid;
   align-content: center;
+}
 }
