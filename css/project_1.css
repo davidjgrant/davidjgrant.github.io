@@ -164,7 +164,7 @@ h4 {
 .item-h {
     grid-area: 8 / 1;
     overflow: hidden;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-image: url('../img/project_1/img-3.png');
 }

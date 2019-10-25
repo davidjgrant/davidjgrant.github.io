@@ -131,7 +131,7 @@ section {
 .item-h {
     grid-area: 8 / 1;
     overflow: hidden;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-image: url('../img/project_3/img-3.png');
 }
