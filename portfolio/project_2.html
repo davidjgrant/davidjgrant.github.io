@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 1 by David Grant</title>
+    <link rel="stylesheet" href="../css/project_2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="contact-button" href="../contact.html">
+                <div class="contact-button">Contact</div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <nav>
+            <a class="close-button" href="../index.html">
+                <img src="../img/close.svg" alt="">
+            </a>
+        </nav>
+        <section>
+            <article class="item-a">
+                <h1>NoteDrop – social media app.</h1>
+                <h4>Role: UX/UI Designer, Visual Designer</br>
+                    Sketched and created wireframes, created hi-fi mockups, prototyped with hi-fi comps
+                </h4>
+                <p>My Tutor set me a new brief to design an app that could be used to help other students which had to include either a Virtual Reality or an Augmented Reality feature. 
+                I decided to work with Augmented Reality (AR), and to create a social media app to help students feel more comfortable moving to a new city. I was
+                praised by my Tutor and fellow students about this idea which included sharing notes about living in your local area. My Tutor asked me to
+                develop this further, using the solid feedback I received from other students. “This is a really fun new interaction
+                that a lot of students moving to a new city would find extremely useful!”
+                </p>
+            </article>
+            <div class="item-b">
+                <div class="img"></div>       
+            </div>
+            <article class="item-c">
+                <p>Problem: How can I combine an AR feature with a social media platform so that students will find it exciting? And how
+                will it compare to the already popular tech giants of today like Facebook, Instagram & SnapChat?
+                </p>
+
+                <p>Solution: I designed a new information sharing app based in the users local area. Using Augmented Reality, 
+                students who move to a new city will be able to find exciting places to visit, or perhapes read about the history of the city, viewing digital notes 
+                scattered around the city. These notes can be anything from a review of a restaurant, information
+                about the importance of a location, or asking other users to come to an event thats happening in the city there and then.
+                </p>
+            </article>
+            <div class="item-d">
+                <div class="img"></div>
+            </div>
+            <article class="item-e" class="p-left">
+                <p>The first screen you load is the map of your current location. The user will see different note icons placed around the map. Users
+                will naturally look down at their phones but by raising the phone up, the user is looking through a window
+                into AR mode where they will be able to see the digital notes placed by other students. The user can then expand the
+                note to view more details and check out what others are saying in the comments below.
+                </p>
+            </article>
+            <div class="item-f">
+                <div class="img-right"></div>
+            </div>
+            <footer class="item-i">
+                <h4>This to me felt like a real-time social media experience. The overwhelming feedback from everyone was great and I felt I
+                was really onto something here. The AR feature was the most popular but some people found it confusing to use. Therefore, I
+                revisited the design process and sketched out a new way for users to easily access the AR mode and view/create notes
+                really simply. This is my favourite idea for an app and I hope to continue developing it and releasing it onto the App
+                Store in the future. Here are some of the talking points I would be glad to talk to you about at an interview: <br>
+                </h4>
+                <p style="font-weight: bolder;">* How I came up with the idea </br>
+                * Sketches and development </br>
+                * Designing for Augmented Reality </br>
+                * More hi-fi mockups </br>
+                * Working prototype </br>
+                * Plans to develop even further (working with businesses)</p>
+            </footer>
+        </section>
+    </main>
+    <script type="text/JavaScript">
+        var button = document.getElementById("contact-button");
+
+        window.onScroll = function() {
+            if (window.pageYOffset > 100) {
+                button.style.opacity = 0;
+            }
+            else {
+                button.style.opacity = 1;
+            }
+        }
+    </script>
+</body>
+</html>
