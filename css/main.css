@@ -9,6 +9,60 @@ body {
     min-height: 150px;
 }
 
+.project-1 {
+    max-width: 400px;
+    min-height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/nav-img/img-1.png');
+}
+
+.project-2 {
+    max-width: 400px;
+    min-height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/nav-img/img-2.png');
+}
+
+.project-3 {
+    max-width: 500px;
+    min-height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/nav-img/img-3.png');
+}
+
+.project-4 {
+    max-width: 500px;
+    min-height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/nav-img/img-4.png');
+}
+
+.project-5 {
+    max-width: 500px;
+    min-height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/nav-img/img-5.png');
+}
+
+.project-6 {
+    max-width: 500px;
+    min-height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/nav-img/img-6.png');
+}
+
 .overlay-bg.visible {
     opacity: 1;
 }
