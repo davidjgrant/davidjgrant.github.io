@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
+
+html, body, section {
+  height: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  bottom: auto;
+}
+
+ul {
+  list-style: none;
+  style: none;
+  display: flex;
+  flex-flow: wrap;
+  padding: 0;
+}
+
+.pic {
+  width: 100px;
+  height: auto;
+  border-radius: 100px;
+  margin: 10px auto 20px;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+  max-width: 320px;
+  max-height: auto;
+  margin: 10px auto;
+}
+
+.social img {
+  width: 28px;
+  height: auto;
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.social a {
+  margin: 0px 10px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .pic {
+  height: auto;
+  border-radius: 100px;
+  align-items: center;
+  }
+
+  .logo {
+    max-width: 240px;
+    max-height: auto;
+  }
+
+  .left {
+    background-color: white;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .right {
+    background-color: #00315a;
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+
+  .react {
+    display: none;
+  }
+}
+
+/* Tablet / Desktop */
+@media only screen and (min-width: 769px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .left {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    background-color: #00315a;
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+  }
+
+  .portfolio-hidden {
+    display: none;
+  }
+
+  .react {
+    font-family: Fira Sans;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+
+    background-color: #00315a;
+    color: #fff;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-type {
+    width: 900px;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.r-type > div {
+    font-weight: 100;
+/*    transform: scale(0.2); */
+    transition: transform 0.2s;
+}
+}
