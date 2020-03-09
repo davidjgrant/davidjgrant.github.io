@@ -186,7 +186,7 @@ h1 {
   font-weight: 400;
 }
 
-ul .white-mode, ul .dark-mode {
+ul, ul .white-mode, ul .dark-mode {
   list-style-type: none;
   display: flex;
   justify-content: center;
