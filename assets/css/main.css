@@ -1,107 +1,166 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: white;
+  }
+
+  .contact-home a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+
+  .white-mode img {
+    display: none;
+  }
+
+  ul .white-mode {
+    display: none !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  .contact-home a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  .dark-mode img {
+    display: none;
+  }
+
+  ul .dark-mode {
+    display: none !important;
+  }
+}
+
 body {
   margin: 0;
 }
 
 .nav-link {
-    background-color: white;
-    padding: 20px;
-    max-width: 500px;
-    min-height: 150px;
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  min-height: 150px;
 }
 
 .project-1 {
-    max-width: 400px;
-    min-height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/nav-img/img-1.png');
+  max-width: 400px;
+  min-height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/nav_img/img-1.png');
 }
 
 .project-2 {
-    max-width: 400px;
-    min-height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/nav-img/img-2.png');
+  max-width: 400px;
+  min-height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/nav_img/img-2.png');
 }
 
 .project-3 {
-    max-width: 500px;
-    min-height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/nav-img/img-3.png');
+  max-width: 500px;
+  min-height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/nav_img/img-3.png');
 }
 
 .project-4 {
-    max-width: 500px;
-    min-height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/nav-img/img-4.png');
+  max-width: 500px;
+  min-height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/nav_img/img-4.png');
 }
 
 .project-5 {
-    max-width: 500px;
-    min-height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/nav-img/img-5.png');
+  max-width: 500px;
+  min-height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/nav_img/img-5.png');
 }
 
 .project-6 {
-    max-width: 500px;
-    min-height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../img/nav-img/img-6.png');
+  max-width: 500px;
+  min-height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/nav_img/img-6.png');
 }
 
 .overlay-bg.visible {
-    opacity: 1;
+  opacity: 1;
 }
 
 .overlay-bg-6 {
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-4 {
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bc4e9c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #f80759, #bc4e9c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #f80759, #bc4e9c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-3 {
-    background: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FDC830;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #F37335, #FDC830);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #F37335, #FDC830);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-1 {
-    background: #ff00cc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff00cc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #333399, #ff00cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #333399, #ff00cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-2 {
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #11998e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #38ef7d, #11998e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #38ef7d, #11998e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay-bg-5 {
-    background: #e52d27;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #e74c51, #94110c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #e74c51, #94110c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #e52d27;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #e74c51, #94110c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #e74c51, #94110c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-link h3 {
@@ -113,7 +172,7 @@ body {
 .profile {
   width: 100px;
   border-radius: 50%;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 .logo {
@@ -127,7 +186,7 @@ h1 {
   font-weight: 400;
 }
 
-ul {
+ul .white-mode, ul .dark-mode{
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -143,11 +202,16 @@ li {
   width: 30px;
 }
 
-.contact-home div a {
-  line-height: 24px;
+.social-list img:hover {
+  opacity: 0.7;
 }
 
-a {
+.contact-home div a {
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.nav-link a {
   font-weight: bold;
   font-family: sans-serif;
   text-decoration: none;
@@ -163,48 +227,48 @@ footer h2 {
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-.wrapper {
-  display: grid;
-}
+  .wrapper {
+    display: grid;
+  }
 
-.about {
-  text-align: center;
-  display: grid;
-  align-content: center;
-  min-height: 60vh;
-  margin: 0 40px;
-}
+  .about {
+    text-align: center;
+    display: grid;
+    align-content: center;
+    min-height: 60vh;
+    margin: 0 40px;
+  }
 
-.overlay-bg {
+  .overlay-bg {
     z-index: 1;
     position: absolute;
     width: 100%;
     height: 2250px;
     opacity: 0;
     transition: opacity 0.4s ease;
-}
+  }
 
-.portfolio {
+  .portfolio {
     display: flex;
     justify-content: center;
-}
+  }
 
-.menu {
+  .menu {
     display: grid;
     grid-gap: 60px;
     grid-template-rows: repeat(6, 40vw);
     z-index: 2;
     padding: 40px;
-}
+  }
 
-.footer {
-  display: grid;
-  grid-row: 3;
-  align-content: center;
-  background-color: white;
-  width: 100%;
-  height: 200px;
-}
+  .footer {
+    display: grid;
+    grid-row: 3;
+    align-content: center;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -221,45 +285,45 @@ footer h2 {
 
 /* Tablet / Desktop */
 @media only screen and (min-width: 769px) {
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
-}
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+  }
 
-.about {
-  text-align: center;
-  display: grid;
-  align-content: center;
-  min-height: 80vh;
-  margin: 0 20px;
-}
+  .about {
+    text-align: center;
+    display: grid;
+    align-content: center;
+    min-height: 80vh;
+    margin: 0 20px;
+  }
 
-.overlay-bg {
+  .overlay-bg {
     z-index: 1;
     position: absolute;
     width: 50%;
     height: 100%;
     opacity: 0;
     transition: opacity 0.4s ease;
-}
+  }
 
-.portfolio {
+  .portfolio {
     grid-column: 2;
     grid-row: 1/ span 2;
     display: flex;
-}
+  }
 
-.menu {
+  .menu {
     display: grid;
     grid-template-columns: repeat(2, 20vw);
     grid-template-rows: repeat(3, 25vh);
     grid-gap: 40px;
     margin: 60px auto;
     z-index: 2;
-}
+  }
 
-.footer {
-  display: grid;
-  align-content: center;
-}
+  .footer {
+    display: grid;
+    align-content: center;
+  }
