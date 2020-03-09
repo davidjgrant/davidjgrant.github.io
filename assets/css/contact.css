@@ -61,7 +61,7 @@ li a:hover {
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 .wrapper {
   display: grid;
 }
@@ -81,7 +81,7 @@ li a:hover {
 }
 
 /* Tablet / Desktop */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 769px) {
 .wrapper {
   display: grid;
 }

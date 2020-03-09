@@ -73,7 +73,7 @@ article {
     height: 500px;
     max-height: 60vh;
     max-width: 2000px;
-    
+
 }
 
 .img-right {
@@ -133,9 +133,4 @@ p {
     max-width: 900px;
     margin: 80px auto;
     line-height: 25px;
-}
-
-
-footer {
-    margin: 100px auto;
 }

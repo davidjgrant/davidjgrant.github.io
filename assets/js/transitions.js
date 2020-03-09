@@ -1,4 +1,4 @@
-$("div a").on("click", function (event) {
+$(".nav-link a").on("click", function (event) {
 
     event.preventDefault()
 
@@ -6,18 +6,18 @@ $("div a").on("click", function (event) {
 
     window.history.pushState(null, null, href)
 
-    $("div a").removeClass("nav-active")
-    $(this).addClass("nav-active")
+    $(".nav-link a").removeClass(".active")
+    $(this).addClass(".active")
 
     $.ajax({
         url: href,
         success: function (data) {
-            $("section").fadeOut(250, function () {
-                const newPage = $(data).filter("section").html()
+            $("body").fadeOut(250, function () {
+                const newPage = $(data).filter("body").html()
 
-                $("section").html(newPage)
+                $("body").html(newPage)
 
-                $("section").fadeIn(250)
+                $("body").fadeIn(250)
             })
         }
     })
