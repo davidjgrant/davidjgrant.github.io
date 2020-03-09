@@ -1,3 +1,45 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: white;
+  }
+
+  .contact-home a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+
+  .white-mode img {
+    display: none;
+  }
+
+  ul .white-mode {
+    display: none !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  .contact-home a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  .dark-mode img {
+    display: none;
+  }
+
+  ul .dark-mode {
+    display: none !important;
+  }
+}
+
 body {
   margin: 0;
 }
@@ -19,7 +61,7 @@ h1 {
   font-weight: 400;
 }
 
-ul {
+ul, ul .white-mode, ul .dark-mode {
   list-style-type: none;
   display: flex;
   justify-content: center;
